@@ -78,7 +78,7 @@ function TableView() {
       formik.setFieldValue("email", "")
       formik.setFieldValue("body", "")
     
-      toast.current.show({ severity: 'success', summary: 'Check the network to see created was successful.', detail: 'Check Network Pls', life: 3000 })
+      toast.current.show({ severity: 'success', summary: 'success', detail: 'Check the network to see created was successful.', life: 3000 })
     },
   });
 
